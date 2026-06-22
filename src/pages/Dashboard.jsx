@@ -35,13 +35,7 @@ export default function Dashboard() {
         ))}
       </motion.section>
 
-      <div className="life-os-grid">
-        <LifeScoreCard />
-        <ImpactPanel />
-      </div>
-
-      <LifeTimeline />
-
+      
       <DashboardCharts />
 
       <div className="dashboard-bento">
