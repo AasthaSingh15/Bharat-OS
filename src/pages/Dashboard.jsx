@@ -8,6 +8,9 @@ import {
 import PersonalizedHero from '../components/dashboard/PersonalizedHero'
 import DashboardCharts from '../components/dashboard/DashboardCharts'
 import AIInsightsPanel from '../components/dashboard/AIInsightsPanel'
+import LifeScoreCard from '../components/dashboard/LifeScoreCard'
+import ImpactPanel from '../components/dashboard/ImpactPanel'
+import LifeTimeline from '../components/dashboard/LifeTimeline'
 import StatCard from '../components/ui/StatCard'
 import GlassCard from '../components/ui/GlassCard'
 import { stats, highlights, opportunities, reminders } from '../data/mockData'
@@ -31,6 +34,13 @@ export default function Dashboard() {
           <StatCard key={stat.label} {...stat} delay={0.1 + i * 0.07} />
         ))}
       </motion.section>
+
+      <div className="life-os-grid">
+        <LifeScoreCard />
+        <ImpactPanel />
+      </div>
+
+      <LifeTimeline />
 
       <DashboardCharts />
 

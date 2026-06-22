@@ -5,6 +5,68 @@ export const stats = [
   { label: 'AI Conversations', value: 142, suffix: '', change: '+12 today', icon: 'MessageSquare' },
 ]
 
+export const lifeScore = {
+  score: 94,
+  label: 'AI Life Score',
+  summary: 'Your identity, benefits, and career graph are highly optimized.',
+  trend: '+8 this month',
+  factors: [
+    { label: 'Documents uploaded', value: 96, detail: '24 verified records' },
+    { label: 'Government schemes matched', value: 92, detail: '7 active matches' },
+    { label: 'Opportunities matched', value: 95, detail: '18 career signals' },
+    { label: 'Profile completeness', value: 88, detail: 'Income proof pending' },
+    { label: 'Pending actions', value: 90, detail: '3 actions due' },
+  ],
+}
+
+export const impactMetrics = [
+  { label: 'Scholarships', value: 150000, prefix: '₹', suffix: '', note: 'eligible education support' },
+  { label: 'Government Benefits', value: 500000, prefix: '₹', suffix: '', note: 'health and welfare cover' },
+  { label: 'Internships', value: 4, prefix: '', suffix: '', note: 'high-match openings' },
+  { label: 'Hackathons', value: 3, prefix: '', suffix: '', note: 'innovation challenges' },
+]
+
+export const lifeTimeline = [
+  { id: 1, title: 'Uploaded Aadhaar', meta: 'Identity verified in Memory Vault', type: 'vault' },
+  { id: 2, title: 'Matched PM Scholarship', meta: 'Education benefit detected', type: 'scheme' },
+  { id: 3, title: 'Found Smart India Hackathon', meta: '95% AI and GovTech match', type: 'opportunity' },
+  { id: 4, title: 'Suggested Internship', meta: 'ISRO research internship shortlisted', type: 'career' },
+  { id: 5, title: 'Generated Reminder', meta: 'Income certificate due tomorrow', type: 'alert' },
+]
+
+export const copilotSummary = {
+  unlockedBenefits: 380000,
+  status: '3 urgent actions can unlock additional schemes this week.',
+  suggestedActions: [
+    {
+      id: 1,
+      title: 'Apply Smart India Hackathon',
+      detail: '95% match detected for AI and public service innovation.',
+      deadline: 'Aug 1, 2026',
+      priority: 'high',
+    },
+    {
+      id: 2,
+      title: 'Upload Income Certificate',
+      detail: 'Unlock 3 additional schemes and scholarship filters.',
+      deadline: 'Tomorrow',
+      priority: 'urgent',
+    },
+    {
+      id: 3,
+      title: 'Complete PM Scholarship',
+      detail: 'Application is 72% ready from your saved documents.',
+      deadline: 'Jun 30, 2026',
+      priority: 'medium',
+    },
+  ],
+  alerts: [
+    'Income certificate pending verification',
+    'PM Scholarship deadline approaching',
+    'Ayushman Bharat eligibility increased to 92%',
+  ],
+}
+
 export const chartData = {
   weeklyActivity: [
     { day: 'Mon', docs: 4, opps: 6, ai: 12 },
